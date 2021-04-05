@@ -15,8 +15,8 @@ Back-end:
   * Flask framework
   * Tensorflow machine learning library (CNN library)
   * Anaconda Python distribution platform (for development)
-  * Numpy
-  * Wav library
+  * FFMPEG
+  * Wav
 
 Front-end
   * Reactjs framework
@@ -58,6 +58,8 @@ Back-end
 
 Please follow the instructions is given below before running the application.
 
+####For Front-end
+
 install Node.js
 
 ```
@@ -76,6 +78,7 @@ Install ReactJs
 npm install -g create-react-app
 ```
 copy files into the your local directory
+[Project Files](https://drive.google.com/drive/folders/1_cMT-OTl2wNNP9qL34RpPXbbNcTsJyIA?usp=sharing)
   or
 clone project from github repository
   (first fork project into your account)
@@ -95,6 +98,10 @@ run the front-end of the application
 ```
 npm start
 ```
+
+####For Back-end
+
+
 install the python
 
 ```
@@ -112,11 +119,6 @@ activate virtual environment
 ```
 yourSource venv/bin/activate
 ```
-install the Flask
-
-```
-pip install Flask
-```
 install the FFMPEG
 
 ```
@@ -133,6 +135,7 @@ install the FFMPEG on macOS
 brew install ffmpeg
 ```
 copy project files into the virtual enviroment
+[Project Files](https://drive.google.com/drive/folders/1_cMT-OTl2wNNP9qL34RpPXbbNcTsJyIA?usp=sharing)
   or
 get clone from github repository
   (first get fork into your github account then copy repo url)
@@ -157,7 +160,6 @@ pip install -r requirements.txt
 run the back-end of the application
 
 ```
-export FLASK_APP=yourInitPointpythonFile
 flask run
 ```
 
@@ -216,5 +218,9 @@ For any requirement or usage of the application or source files, you can contact
 
 * Project Link: (https://github.com/aplahiru/VoiceToDeaf.git).
 * contributors: 
-   * github-> [aplahiru](https://github.com/aplahiru) 
-   * e-mail-> ict1600034@sjp.ac.lk
+   * github-> 
+          * [lahiru](https://github.com/aplahiru) 
+          * [thushan](https://github.com/ArrowNeck)
+   * e-mail-> 
+          * ict1600034@sjp.ac.lk
+          * ict1600028@sjp.ac.lk
