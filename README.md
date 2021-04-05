@@ -58,7 +58,7 @@ Back-end
 
 Please follow the instructions is given below before running the application.
 
-####For Front-end
+###For Front-end
 
 install Node.js
 
@@ -99,7 +99,7 @@ run the front-end of the application
 npm start
 ```
 
-####For Back-end
+###For Back-end
 
 
 install the python
