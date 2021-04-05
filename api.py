@@ -11,9 +11,9 @@ from pydub.utils import make_chunks
 
 app= Flask(__name__)
 
-model = keras.models.load_model(r"C:\Users\dthus\Desktop\researchML\signapp\api\assest\modelCNNnew.h5")
+model = keras.models.load_model("./files/modelCNNnew.h5")
 
-cors = CORS(app, resources={r"/upload": {"origins": "*"}})
+cors = CORS(app, resources={"/upload": {"origins": "*"}})
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -36,18 +36,4 @@ def upload_file():
         prediction = get_prediction(model, path)
         print(prediction)
         return jsonify(prediction=prediction)
-        # return 'end point'
-        
 
-
-
-
-    
-# # cors = CORS(api, resources={r'/api': {"origins": "http://localhost:3000"}})
-
-# @app.route('/api', methods=['GET'])
-# # @cross_origin(origin='http://localhost:3000')
-# def get_details():
-#     response = jsonify({ 'userId': 1, 'name': 'Thushan'})
-#     response.headers.add('Access-Control-Allow-Origin', '*')
-#     return response
