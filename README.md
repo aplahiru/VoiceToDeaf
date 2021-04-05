@@ -151,14 +151,14 @@ CNN model can be downloaded from Google drive.
 install required packages
 
 ```
-export FLASK_APP=yourInitPointpythonFile
-flask run
+pip install -r requirements.txt
 ```
 
 run the back-end of the application
 
 ```
-pip install -r requirements.txt
+export FLASK_APP=yourInitPointpythonFile
+flask run
 ```
 
 That's all. Now, Front-end and back-end is installed and configured.
