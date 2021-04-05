@@ -117,6 +117,21 @@ install the Flask
 ```
 pip install Flask
 ```
+install the FFMPEG
+
+```
+sudo apt update
+sudo apt install ffmpeg
+```
+If you use windows operating system please follow instructions of the below link
+
+[Install FFMPEG on Windows](https://www.wikihow.com/Install-FFmpeg-on-Windows#)
+
+install the FFMPEG on macOS
+
+```
+brew install ffmpeg
+```
 copy project files into the virtual enviroment
   or
 get clone from github repository
@@ -124,6 +139,14 @@ get clone from github repository
 
 ```
 git clone repositoryUrl
+```
+If you use git repository, please add CNN model (modelCNNnew.h5) into the below mentioned path to import it.
+CNN model can be downloaded from Google drive.
+
+[Google drive link for CNN model](https://drive.google.com/file/d/1EZhkqd7LXKPp-0I2_7L0tcp5Gzk4Xhvq/view?usp=sharing)
+
+```
+./files/
 ```
 run the back-end of the application
 
@@ -165,6 +188,7 @@ You should be contact development team and contributors before any above mention
 * [ThreeJs](https://threejs.org/docs/) - 3D model rendering framework
 * [NodeJs](https://nodejs.org/en/docs/) - runtime environment for the java script
 * [TensorFlow](https://www.tensorflow.org/api_docs) - open-source software library for machine learning
+* [FFMPEG](https://ffmpeg.org/ffmpeg.html) - Media encoding and decoding library
 
 ## Contributing
 
@@ -184,7 +208,7 @@ For any requirement or usage of the application or source files, you can contact
 
 ## Contact
 
-* Project Link: (https://github.com/aplahiru/voicetodeaf.git).
+* Project Link: (https://github.com/aplahiru/VoiceToDeaf.git).
 * contributors: 
    * github-> [aplahiru](https://github.com/aplahiru) 
    * e-mail-> ict1600034@sjp.ac.lk
