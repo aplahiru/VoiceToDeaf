@@ -1,0 +1,25 @@
+.custom-css{
+    color: gray;
+    
+}
+.custom-css-help:hover{ 
+    transform: scale(1.1);  
+}
+.custom-css:hover{
+    transform: scale(1.1);
+}
+.reset:hover{
+    color: rgb(207, 177, 7);
+}
+.record:hover{
+    color: rgb(209, 6, 46);
+}
+.play:hover{
+    color: rgb(0, 139, 63);
+}
+.topic{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(0, 255, 255), rgb(8, 92, 88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
